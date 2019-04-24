@@ -13,8 +13,8 @@ printf "${GRN}--This is a simple MouseJack setup script--\n"
 
 
 printf "${GRN}Making MouseJack/ dir...\n${NC}"
-mkdir test/
-cd test/
+mkdir MouseJack/
+cd MouseJack/
 
 printf "${GRN}Cloning mouejack GitHub...\n${NC}"
 git clone https://github.com/BastilleResearch/mousejack.git
@@ -39,7 +39,7 @@ printf "${GRN}You should be able to run the scripts under mousejack/tools/\n ${N
 
 printf "${GRN}Downloading and setting up Jackit........... \n ${NC}"
 cd
-cd test/
+cd MouseJack/
 git clone https://github.com/insecurityofthings/jackit.git
 cd jackit/
 pip install -e .
