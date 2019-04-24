@@ -13,6 +13,7 @@ printf "${GRN}--This is a simple MouseJack setup script--\n"
 
 
 printf "${GRN}Making MouseJack/ dir...\n${NC}"
+cd
 mkdir MouseJack/
 cd MouseJack/
 
