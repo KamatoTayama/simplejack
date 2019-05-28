@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This is used only to start the HTTP server, Netcat listener and jackit with an existing payload. 
+# For setup please use simplejack.sh and gen_payload.sh as needed.
+
 GRN='\033[0;32m'
 NC='\033[0m'
 
